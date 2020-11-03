@@ -1,0 +1,687 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #fefefe;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-weight: normal;
+  line-height: 1.5;
+  color: #0a0a0a;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.photography-page p {
+  margin-bottom: 1rem;
+  font-size: inherit;
+  line-height: 2.5;
+  text-rendering: optimizeLegibility;
+  font-family: "Indie Flower", cursive;
+}
+
+.photography-page h2 {
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #303030;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.photography-page h3 {
+  text-rendering: optimizeLegibility;
+  font-family: "Indie Flower", cursive;
+  font-size: 2.4403125rem;
+  letter-spacing: 0em;
+  word-spacing: 0em;
+  line-height: 1.153em;
+  color: #000000;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+.photography-page h4 {
+  font-size: 19px;
+  line-height: 1.375em;
+  color: #303030;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.photography-page h6 {
+  text-rendering: optimizeLegibility;
+  font-family: "Indie Flower", cursive;
+  color: white;
+  text-shadow: 0.19rem 0.19rem 0 #000, -0.06rem -0.06rem 0 #000,
+    0.06rem -0.06rem 0 #000, -0.06rem 0.06rem 0 #000, 0.06rem 0.06rem 0 #000;
+  font-size: calc(1.5rem + 4vw);
+}
+
+.photography-page .container-fluid {
+  padding: 60px 50px;
+}
+
+.photography-page img {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.photography-page img:hover {
+  transition: all 0.8s ease;
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+}
+
+.photography-page div,
+.photography-page img {
+  border-radius: 25px;
+}
+
+/* === || LINKS (Global) === */
+
+.photography-page a:link {
+  color: #0a0a0a;
+}
+
+/* visited link */
+.photography-page a:visited {
+  color: #0a0a0a;
+}
+
+/* mouse over link */
+.photography-page a:hover {
+  color: rgb(203, 204, 199, 0.5);
+}
+
+/* selected link */
+.photography-page a:active {
+  color: #0a0a0a;
+}
+
+/* === || NAVBAR || === */
+
+.photography-page #sp-logo {
+  max-width: 10rem;
+}
+.photography-page #sp-logo-mobile {
+  max-width: 2rem;
+}
+
+.photography-page #logo-mobile {
+  display: none;
+}
+.photography-page #logo-desktop {
+  display: block;
+}
+
+.photography-page .dropdown-item,
+.photography-page .dropdown-menu {
+  background-color: transparent;
+  color: black !important;
+  border: none;
+  font-size: 12px !important;
+}
+
+.photography-page .dropdown-toggle::after {
+  content: none;
+}
+
+.photography-page .navbar {
+  margin-bottom: 0;
+  z-index: 9999;
+  border: 0;
+  font-size: 12px !important;
+  line-height: 1.42857143 !important;
+  letter-spacing: 4px;
+  border-radius: 0;
+  font-family: Montserrat, sans-serif;
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  text-shadow: 0 1px silver;
+}
+
+.photography-page .navbar-nav .active {
+  background-color: rgb(203, 204, 199, 0.2);
+  border-radius: 25px;
+}
+
+/* === || JUMBOTRON || === */
+
+.photography-page .jumbotron {
+  background-color: transparent;
+  color: black;
+  font-family: Montserrat, sans-serif;
+  position: relative;
+  padding: 0 !important;
+}
+
+.photography-page .jumbotron img {
+  border-radius: 0 !important;
+}
+
+.photography-page .jumbotron h1 {
+  /* font-family: "Dancing Script", cursive; */
+  color: white;
+  text-shadow: 0.19rem 0.19rem 0 #000, -0.06rem -0.06rem 0 #000,
+    0.06rem -0.06rem 0 #000, -0.06rem 0.06rem 0 #000, 0.06rem 0.06rem 0 #000;
+  font-size: calc(0.6rem + 4vw);
+  font-family: "Sacramento", cursive;
+}
+
+.photography-page #font-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* === || ABOUT || === */
+
+.photography-page #profile-container {
+  padding: 4.625rem 1.25rem 7.3125rem 1.25rem !important;
+  background-color: rgb(203, 204, 199, 0.5);
+}
+
+.photography-page #photo-profile-pic {
+  top: -31px;
+  position: relative;
+}
+
+.photography-page #photo-profile-pic-container {
+  margin-top: -7.5625rem;
+  position: relative;
+  width: 28.125rem;
+  min-height: 25rem;
+  padding-right: 2.625rem;
+}
+
+.photography-page #tiny-container {
+  width: 22.5rem;
+  text-align: end;
+  padding-right: 5.625rem;
+}
+
+.photography-page #short-info {
+  font-family: "Helvetica Neue";
+  font-size: 1.5625rem;
+  letter-spacing: 0em;
+  word-spacing: 0em;
+  line-height: 1.33em;
+  color: #000000;
+  text-transform: none;
+  font-weight: normal;
+}
+
+.photography-page #short-title {
+  font-size: 0.65625rem;
+  letter-spacing: 0.2em;
+  word-spacing: 0em;
+  line-height: 2em;
+  color: #000000;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-family: "Helvetica Neue";
+}
+
+.photography-page #tiny-title {
+  font-size: 2.4403125rem;
+  letter-spacing: 0em;
+  word-spacing: 0em;
+  line-height: 1.153em;
+  color: #000000;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+.photography-page #about .row {
+  justify-content: space-between;
+  /* padding-top: 10.125rem; */
+  padding-bottom: 9.25rem;
+}
+
+.photography-page #about-info {
+  border-left: solid 1px black;
+  padding: 3rem;
+}
+
+/* === || EQUIPMENT || === */
+
+.photography-page #equipment-info {
+  padding-bottom: 31px;
+  padding: 3rem;
+}
+
+.photography-page #equipment-pic {
+  bottom: auto;
+  position: relative;
+}
+
+.photography-page #equipment-pic-container {
+  margin-bottom: -15.5625rem;
+  position: relative;
+  min-height: 16rem;
+  padding-top: 2.625rem;
+}
+
+.photography-page #equipment .first-row {
+  justify-content: space-between;
+  padding: 4.625rem 1.25rem 7.3125rem 1.25rem !important;
+  background-color: rgb(203, 204, 199, 0.5);
+}
+
+.photography-page #equipment-info {
+  border-bottom: solid 1px black;
+}
+
+/* === || AWARD || === */
+
+.photography-page #short-container {
+  margin: auto;
+}
+
+/* === || PORTFOLIO || === */
+
+.photography-page #portfolio .card,
+.photography-page #portfolio .card-img-top {
+  border-radius: 25px;
+  padding: 0.5rem;
+  border: none;
+  background-color: transparent;
+}
+
+.photography-page #portfolio h5 {
+  letter-spacing: 0em;
+  word-spacing: 0em;
+  line-height: 1.153em;
+  color: #000000;
+  text-transform: uppercase;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+  font-family: "Indie Flower", cursive;
+}
+
+.photography-page #portfolio .card-text {
+  font-size: 0.65625rem;
+  letter-spacing: 0.2em;
+  word-spacing: 0em;
+  line-height: 2em;
+  color: #000000;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-family: "Helvetica Neue";
+}
+
+.photography-page #portfolio {
+  margin-top: 15.5625rem;
+  margin-bottom: 8rem;
+  background: linear-gradient(
+    to bottom right,
+    transparent 0%,
+    transparent 50%,
+    rgb(203, 204, 199, 0.5) 50%,
+    rgb(203, 204, 199, 0.5) 100%
+  );
+}
+
+.photography-page #portfolio img,
+.photography-page #portfolio p {
+  margin-bottom: 2rem;
+}
+
+.photography-page #portfolio img:hover {
+  transform: scale(1.1);
+  transition: all 0.8s ease;
+}
+
+.photography-page #portfolio h6 {
+  font-size: calc(0.4rem + 2vw);
+}
+
+.photography-page #font-overlay-bottom {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.photography-page #portrait-container #short-title,
+.photography-page #portfolio-landscape #short-title,
+.photography-page #portfolio-events #short-title,
+.photography-page #portfolio-wedding #short-title {
+  margin-top: 1rem;
+}
+
+.photography-page .border-right {
+  border-right: 1px solid black;
+  margin: 0.5rem;
+  padding: 3rem;
+}
+
+.photography-page .border-left {
+  border-left: 1px solid black;
+  margin: 0.5rem;
+  padding: 3rem;
+}
+
+.photography-page .diamond {
+  border: 50px solid transparent;
+  border-bottom-color: rgb(203, 204, 199, 0.5);
+  position: relative;
+  top: -50px;
+}
+.photography-page .diamond:after {
+  content: "";
+  position: absolute;
+  left: -50px;
+  top: 50px;
+  width: 0;
+  height: 0;
+  border: 50px solid transparent;
+  border-top-color: rgb(203, 204, 199, 0.5);
+}
+
+.photography-page #short-info-sixteen {
+  font-size: calc(16px + 0.1rem);
+  font-family: "Helvetica Neue";
+  letter-spacing: 0em;
+  word-spacing: 0em;
+  line-height: 1.33em;
+  color: #000000;
+  text-transform: none;
+  font-weight: normal;
+}
+
+/* Triangle BG Aroow */
+
+.photography-page .tri-br {
+  background: linear-gradient(
+    to bottom right,
+    transparent 0%,
+    transparent 50%,
+    rgb(203, 204, 199, 0.5) 50%,
+    rgb(203, 204, 199, 0.5) 100%
+  );
+}
+
+.photography-page .tri-bl {
+  background: linear-gradient(
+    to bottom left,
+    #fff 0%,
+    #fff 50%,
+    rgb(203, 204, 199, 0.5) 50%,
+    rgb(203, 204, 199, 0.5) 100%
+  );
+}
+
+/* === ||Contact || === */
+
+.photography-page #contact-disclaimer-top,
+.photography-page #contact-disclaimer-bottom {
+  font-size: 1.4375rem;
+  letter-spacing: -0.01em;
+  word-spacing: 0em;
+  line-height: 1.153em;
+  color: #000000;
+  text-transform: none;
+  font-weight: normal;
+}
+.photography-page #contact-disclaimer-bottom {
+  font-weight: bold;
+}
+
+.photography-page #script-font {
+  font-family: "Caveat", cursive;
+  font-size: 2.6875rem;
+  letter-spacing: 0em;
+  word-spacing: 0em;
+  line-height: 1.241em;
+  color: white;
+  text-shadow: 0.19rem 0.19rem 0 #000, -0.06rem -0.06rem 0 #000,
+    0.06rem -0.06rem 0 #000, -0.06rem 0.06rem 0 #000, 0.06rem 0.06rem 0 #000;
+}
+
+.photography-page #contact .card,
+.photography-page #contact .card-footer,
+.photography-page #contact input,
+.photography-page #contact select {
+  border: none;
+}
+
+.photography-page #contact input,
+.photography-page #contact select {
+  border-bottom: 1px solid black;
+}
+
+.photography-page #contact textarea {
+  border: 1px solid black;
+  padding: 0;
+  margin: 0;
+}
+
+.photography-page #contact label {
+  font-family: "The Girl Next Door", cursive;
+  font-size: 1.5375rem;
+  letter-spacing: -0.01em;
+  word-spacing: 0em;
+  line-height: 1.153em;
+  color: #000000;
+  text-transform: capitalize;
+  font-weight: normal;
+  margin: auto;
+  padding-top: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+.photography-page #contact ::placeholder {
+  color: lightgray;
+}
+
+.photography-page #card-footer-p {
+  text-transform: uppercase;
+  font-family: "Helvetica Neue" !important;
+}
+
+.photography-page #contact .logo-small {
+  font-size: 50px;
+}
+
+.photography-page .datepicker td,
+.photography-page .datepicker th {
+  border: 1px solid #eee;
+  background-color: white;
+}
+
+.photography-page #contact button {
+  margin: 20px;
+}
+
+/* Modal */
+
+.photography-page #modal-link-text:hover {
+  color: silver;
+}
+
+.photography-page .modal-content {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  pointer-events: auto;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 0.2rem solid rgba(0, 0, 0, 0.2);
+  border-radius: 25px;
+  outline: 0;
+}
+
+.photography-page .modal-content .card {
+  border-radius: 25px;
+}
+
+/* === || Footer || === */
+
+#copyright {
+  font-size: 0.85625rem;
+  letter-spacing: 0.2em;
+  word-spacing: 0em;
+  line-height: 2em;
+  color: #000000;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-family: "Helvetica Neue";
+}
+
+/* Hover Color Change For Social Icons */
+
+#xbl-color:hover {
+  color: #107c10;
+}
+.fa-facebook-f:hover,
+.fa-facebook:hover,
+.fa-facebook-square:hover {
+  color: #3b5998;
+}
+.fa-instagram:hover {
+  background: -webkit-linear-gradient(
+    45deg,
+    #405de6,
+    #5851db,
+    #833ab4,
+    #c13584,
+    #e1306c,
+    #fd1d1d
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.fa-snapchat-ghost:hover {
+  color: #fffc00;
+}
+.fa-steam:hover {
+  color: #9cbbc7;
+}
+.fa-soundcloud:hover {
+  color: #ff7700;
+}
+.fa-linkedin:hover {
+  color: #0e76a8;
+}
+.fa-stack-overflow:hover {
+  color: #ef8236;
+}
+.fa-github:hover {
+  color: #000000;
+}
+.fa-blogger:hover {
+  color: #fc4f08;
+}
+.fa-java:hover {
+  background: -webkit-linear-gradient(#f89820, #f89820, #5382a1, #5382a1);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.fa-node-js:hover {
+  color: #68a063;
+}
+.fa-html5:hover {
+  background: -webkit-linear-gradient(0deg, #e44d26, #f16529);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* === || PHOTOSHOP || === */
+
+#photoshop img {
+  margin: 0;
+  padding: 0;
+}
+
+/* === || © Before-after.js || === */
+
+/* @import "lesshat"; */
+
+.ba-slider {
+  position: relative;
+  overflow: hidden;
+  margin: 1rem;
+}
+
+.ba-slider img {
+  width: 100%;
+  display: block;
+}
+
+.resize {
+  position: absolute;
+  top: 0;
+  left: 15px;
+  height: 100%;
+  width: 50%;
+  overflow: hidden;
+}
+
+/* line seperator */
+.handle {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  margin-left: 16px;
+
+  background: rgba(0, 0, 0, 0.5);
+  cursor: ew-resize;
+}
+
+  /*  knob  */
+.handle:after {
+  position: absolute;
+  top: 50%;
+  width: 64px;
+  height: 64px;
+  margin: -32px 0 0 -32px;
+
+  content: "\21d4";
+  color: white;
+  font-weight: bold;
+  font-size: 36px;
+  text-align: center;
+  line-height: 64px;
+
+  background: transparent;
+  border: 1px solid black;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3),
+    inset 0 2px 0 rgba(255, 255, 255, 0.5),
+    inset 0 60px 50px -30px rgb(203, 204, 199, 0.5);
+}
+
+.draggable:after {
+  width: 48px;
+  height: 48px;
+  margin: -24px 0 0 -24px;
+  line-height: 48px;
+  font-size: 30px;
+}
+
+/* === || MEDIA QUERIES || === */
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 480px) {
+  #logo-mobile {
+    display: block;
+  }
+  #logo-desktop {
+    display: none;
+  }
+  #about-info p,
+  #equipment-info p {
+    font-size: 1rem;
+    letter-spacing: 0em;
+    line-height: 2rem;
+  }
+}

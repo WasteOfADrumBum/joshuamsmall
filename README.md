@@ -1,10 +1,35 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# **JoshuaMSmall.com**
 
-## Available Scripts
+![GitHub license](https://img.shields.io/badge/Made%20by-%40WasteOfADrumBum-green)
 
-In the project directory, you can run:
+## Description 
+
+My personal web development and photography portfolio
+
+# Technologies Used
+
+![GitHub top language](https://img.shields.io/github/languages/top/WasteOfADrumBum/joshuamsmall?color=green&logo=github&logoColor=green)
+![GitHub language count](https://img.shields.io/github/languages/count/WasteOfADrumBum/joshuamsmall?color=green&logo=github&logoColor=green)
+
+## Table of contents
+
+- [Installation](#installation)
+- [Instructions](#instructions)
+- [Features](#features)
+- [Example Gif](#example-gif)
+- [Repository Link](#Repository)
+- [Test](#Test)
+- [Licence](#Licence)
+- [GitHub Info](#GitHub)
+
+## Installation
+
+`npm install`
+
+## Instructions
+
+[JoshuaMSmall.com](https:www.joshuamsmall.com)
 
 ### `yarn start`
 
@@ -39,32 +64,54 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## Features
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Portfolio web application using React.js
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Example Gif
 
-### Code Splitting
+<img src="public/assets/images/githubprofile.png" width="500" />
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Repository
 
-### Analyzing the Bundle Size
+![GitHub repo size](https://img.shields.io/github/repo-size/WasteOfADrumBum/joshuamsmall?logo=github)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![GitHub Commit Activity](https://img.shields.io/github/commit-activity/m/WasteOfADrumBum/joshuamsmall)
+![GitHub Last Commit](https://img.shields.io/github/last-commit/WasteOfADrumBum/joshuamsmall)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+![GitHubopen pull request](https://img.shields.io/github/issues-pr/WasteOfADrumBum/joshuamsmall)
+![GitHub closed pull request](https://img.shields.io/github/issues-pr-closed/WasteOfADrumBum/joshuamsmall)
 
-### Advanced Configuration
+![GitHub Stars](https://img.shields.io/github/stars/WasteOfADrumBum/joshuamsmall?style=social)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- [Project Repo](https://github.com/WasteOfADrumBum/joshuamsmall)
 
-### Deployment
+## Contributors
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `yarn build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![GitHub contributors](https://img.shields.io/github/contributors/WasteOfADrumBum/joshuamsmall)
+![GitHub Forks](https://img.shields.io/github/forks/WasteOfADrumBum/joshuamsmall?label=Fork)
+![GitHub Watchers](https://img.shields.io/github/watchers/WasteOfADrumBum/joshuamsmall?label=Watch)
+
+## Test
+
+![GitHub test](https://img.shields.io/badge/test-100%25-success)
+
+![GitHub open issues](https://img.shields.io/github/issues/WasteOfADrumBum/joshuamsmall)
+![GitHub closed issues](https://img.shields.io/github/issues-closed/WasteOfADrumBum/joshuamsmall)
+
+## Licence
+
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+
+## GitHub
+
+<img src="https://avatars0.githubusercontent.com/u/66432859?v=4" width="250" />
+
+- Joshua M. Small
+- [GitHub Profile](https://github.com/WasteOfADrumBum)
+- <JMSmall89@gmail.com>
+- ![GitHub Followers](https://img.shields.io/github/followers/WasteOfADrumBum?label=Follow)
+

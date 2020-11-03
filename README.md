@@ -29,7 +29,7 @@ My personal web development and photography portfolio
 
 ## Instructions
 
-[JoshuaMSmall.com](https:www.joshuamsmall.com)
+[JoshuaMSmall.com](https://www.joshuamsmall.com)
 
 ### `yarn start`
 

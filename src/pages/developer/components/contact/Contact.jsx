@@ -22,7 +22,7 @@ const Contact = () => {
                   method="post"
                   action="https://www1.domain.com/scripts/formemail.html"
                 >
-                  <input
+                  <input 
                     type="hidden"
                     name="my_email"
                     value="contact@joshuamsmall.com"
@@ -43,7 +43,7 @@ const Contact = () => {
                       <i className="fa fa-envelope" /> Let's Conect:
                     </h3>
                   </div>
-                  <div className="md-form">
+                  <div className="md-form m-3">
                     <i className="fas fa-user-circle prefix grey-text" />
                     <input
                       type="text"
@@ -54,7 +54,7 @@ const Contact = () => {
                     />
                     <label htmlFor="form-name" />
                   </div>
-                  <div className="md-form">
+                  <div className="md-form m-3">
                     <i className="fa fa-envelope prefix grey-text" />
                     <input
                       type="text"
@@ -65,7 +65,7 @@ const Contact = () => {
                     />
                     <label htmlFor="form-email" />
                   </div>
-                  <div className="md-form">
+                  <div className="md-form m-3">
                     <i className="fa fa-tag prefix grey-text" />
                     <select
                       type="text"
@@ -87,7 +87,7 @@ const Contact = () => {
                     </select>
                     <label htmlFor="form-Subject" />
                   </div>
-                  <div className="md-form">
+                  <div className="md-form m-3">
                     <i className="fas fa-pencil-alt prefix grey-text" />
                     <textarea
                       id="form-text"

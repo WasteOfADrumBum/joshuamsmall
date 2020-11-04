@@ -1,6 +1,5 @@
 import React from "react";
 import "../../assets/styles/photography.scss"
-// import "./style-min.css";
 
 import NavBar from "./components/navbar/NavBar.jsx";
 import Jumbotron from "./components/jumbotron/Jumbotron";

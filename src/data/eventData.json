@@ -1,0 +1,26 @@
+[
+  {
+    "image": "assets/images/events/chevelle-1.jpg",
+    "alt": "'67 Chevelle",
+    "caption": "'67 Chevelle",
+    "description": "Greensboro N.C. @ GAA"
+  },
+  {
+    "image": "assets/images/events/pb-1.jpg",
+    "alt": "Paintball Tournament",
+    "caption": "Paintball Tournament",
+    "description": "Gibsonville N.C. @ PBC"
+  },
+  {
+    "image": "assets/images/events//olg-1.jpg",
+    "alt": "Our Lady of Grace Fall Festival",
+    "caption": "Our Lady of Grace Fall Festival",
+    "description": "Greensboro N.C. @ OLG"
+  },
+  {
+    "image": "assets/images/events/pb-2.jpg",
+    "alt": "Paintball Tournament",
+    "caption": "Paintball Tournament",
+    "description": "Gibsonville N.C. @ PBC"
+  }
+]

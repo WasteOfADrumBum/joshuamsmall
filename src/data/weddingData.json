@@ -1,0 +1,26 @@
+[
+  {
+    "image": "assets/images/wedding/nelson-rings.jpg",
+    "alt": "Nelson's Wedding",
+    "caption": "Nelson's Wedding",
+    "description": "Martinsville V.A."
+  },
+  {
+    "image": "assets/images/wedding/tk-1.jpg",
+    "alt": "Terrance & Kaitlyn",
+    "caption": "Terrance & Kaitlyn",
+    "description": "@ My Stuido"
+  },
+  {
+    "image": "assets/images/wedding/tori-1.jpg",
+    "alt": "Tori's Wedding",
+    "caption": "Tori's Wedding",
+    "description": "Wilmington N.C."
+  },
+  {
+    "image": "assets/images/wedding/tk-2.jpg",
+    "alt": "Terrance & Kaitlyn",
+    "caption": "Terrance & Kaitlyn",
+    "description": "Greensboro N.C."
+  }
+]

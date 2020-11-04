@@ -1,5 +1,7 @@
 import React from "react";
 import PhotoCarousel from "../../../../components/Carousel";
+import commercialData from '../../../../data/commercialData.json';
+
 
 const Landscape = () => {
   return (
@@ -20,7 +22,7 @@ const Landscape = () => {
           </p>
         </div>
         <div className="col-md-6">
-          <PhotoCarousel />
+          <PhotoCarousel data={commercialData}/>
         </div>
         <div className="col-md-1" />
       </div>

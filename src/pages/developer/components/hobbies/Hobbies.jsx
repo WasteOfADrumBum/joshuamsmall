@@ -77,7 +77,7 @@ const Hobbies = () => {
               id="xbl-color"
             >
               <i className="fab fa-xbox"></i>
-              <strong> Xbox Live</strong>
+              <strong>&nbsp;Xbox Live&nbsp;</strong>
             </a>
             and let's go a few rounds
           </p>

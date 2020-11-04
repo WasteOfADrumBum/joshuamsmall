@@ -1,5 +1,6 @@
 import React from "react";
 import PhotoCarousel from "../../../../components/Carousel";
+import weddingData from '../../../../data/weddingData.json';
 
 const Wedding = () => {
   return (
@@ -20,7 +21,7 @@ const Wedding = () => {
           </p>
         </div>
         <div className="col-md-6">
-          <PhotoCarousel/>
+          <PhotoCarousel data={weddingData}/>
         </div>
         <div className="col-md-1" />
       </div>

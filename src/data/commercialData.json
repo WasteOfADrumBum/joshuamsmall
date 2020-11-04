@@ -1,0 +1,32 @@
+[
+  {
+    "image": "assets/images/landscapes/dc.jpg",
+    "alt": "Capital Building",
+    "caption": "Capital Building",
+    "description": "Washington D.C."
+  },
+  {
+    "image": "assets/images/landscapes/olg.jpg",
+    "alt": "Our Landy of Grace",
+    "caption": "Our Landy of Grace",
+    "description": "Greensboro N.C."
+  },
+  {
+    "image": "assets/images/landscapes/kure-beach.jpg",
+    "alt": "Kure Beach",
+    "caption": "Kure Beach",
+    "description": "Wilmington N.C."
+  },
+  {
+    "image": "assets/images/landscapes/jmp.jpg",
+    "alt": "Johnnie Mercers Fishing Pier",
+    "caption": "Johnnie Mercers Fishing Pier",
+    "description": "Wilmington N.C."
+  },
+  {
+    "image": "assets/images/landscapes/boat.jpg",
+    "alt": "Lake Boat",
+    "caption": "Lake Boat",
+    "description": "Martinsville V.A."
+  }
+]

@@ -1,14 +1,16 @@
 import React from "react";
 import PhotoCarousel from "../../../../components/Carousel";
+import horizontalData from '../../../../data/horizontalData.json';
+import verticalData from '../../../../data/verticalData.json';
 
 const Portrait = () => {
-  return (
+ return (
     <div id="portrait-container">
       <div id="portfolio-portraits" className="container-fluid">
         <div className="row">
           <div className="col-md-1" />
           <div className="col-md-6">
-            <PhotoCarousel />
+            <PhotoCarousel data={horizontalData} />
           </div>
           <div className="col-md-4 border-left">
             <p id="short-title" className="tri-bl">
@@ -58,7 +60,7 @@ const Portrait = () => {
             </p>
           </div>
           <div className="col-md-4">
-            <PhotoCarousel />
+            <PhotoCarousel data={verticalData}/>
           </div>
           <div className="col-md-1" />
         </div>

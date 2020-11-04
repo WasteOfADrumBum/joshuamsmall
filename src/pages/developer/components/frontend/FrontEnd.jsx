@@ -17,7 +17,7 @@ const FrontEnd = () => {
         </ol>
         <div className="carousel-inner" role="listbox" aria-label="frontend">
           <div className="carousel-item active" aria-label="password-generator">
-            <video auotPlay loop muted playsInline className="img-fluid">
+            <video autoPlay loop muted playsInline className="img-fluid">
               <source
                 src="assets/video/password-generator.mp4"
                 type="video/mp4"
@@ -64,7 +64,7 @@ const FrontEnd = () => {
             </div>
           </div>
           <div className="carousel-item" aria-label="coding-quiz">
-            <video auotPlay loop muted playsInline className="img-fluid">
+            <video autoPlay loop muted playsInline className="img-fluid">
               <source
                 src="assets/video/coding-quiz.mp4"
                 type="video/mp4"
@@ -108,7 +108,7 @@ const FrontEnd = () => {
             </div>
           </div>
           <div className="carousel-item" aria-label="workday-scheduler">
-            <video auotPlay loop muted playsInline className="img-fluid">
+            <video autoPlay loop muted playsInline className="img-fluid">
               <source
                 src="assets/video/workday-scheduler.mp4"
                 type="video/mp4"
@@ -155,7 +155,7 @@ const FrontEnd = () => {
             </div>
           </div>
           <div className="carousel-item" aria-label="weather-dashboard">
-            <video auotPlay loop muted playsInline className="img-fluid">
+            <video autoPlay loop muted playsInline className="img-fluid">
               <source
                 src="assets/video/weatherdashboard.mp4"
                 type="video/mp4"

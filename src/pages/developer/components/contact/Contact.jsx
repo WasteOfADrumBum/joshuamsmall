@@ -1,5 +1,7 @@
 import React from "react";
 
+// TODO: Fix spacing between inputs
+
 const Contact = () => {
   return (
     <div className="container-fluid bg-grey" id="contact">
@@ -50,7 +52,7 @@ const Contact = () => {
                       placeholder="Your Name"
                       required
                     />
-                    <label for="form-name" />
+                    <label htmlFor="form-name" />
                   </div>
                   <div className="md-form">
                     <i className="fa fa-envelope prefix grey-text" />
@@ -61,7 +63,7 @@ const Contact = () => {
                       placeholder="Your Email"
                       required
                     />
-                    <label for="form-email" />
+                    <label htmlFor="form-email" />
                   </div>
                   <div className="md-form">
                     <i className="fa fa-tag prefix grey-text" />
@@ -83,7 +85,7 @@ const Contact = () => {
                         Chat About Hobbies
                       </option>
                     </select>
-                    <label for="form-Subject" />
+                    <label htmlFor="form-Subject" />
                   </div>
                   <div className="md-form">
                     <i className="fas fa-pencil-alt prefix grey-text" />
@@ -95,7 +97,7 @@ const Contact = () => {
                       rows="6"
                       required
                     ></textarea>
-                    <label for="form-text" />
+                    <label htmlFor="form-text" />
                   </div>
                   <div className="text-center">
                     <button

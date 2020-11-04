@@ -28,17 +28,6 @@ $(document).ready(function () {
     });
   });
 
-  /* === || DatePicker || === */
-  $("#datepicker-input input").datepicker({
-    format: "mm/dd/yy",
-    maxViewMode: 2,
-    todayBtn: "linked",
-    clearBtn: true,
-    orientation: "bottom auto",
-    forceParse: false,
-    autoclose: true,
-  });
-
   /* === || PHOTOSHOP || === */
   $(document).ready(function () {
     $(".ba-slider").each(function () {

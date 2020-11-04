@@ -1,4 +1,5 @@
 import React from "react";
+import DatePickerReact from "./DatePicker";
 
 const Modal = () => {
   return (
@@ -101,17 +102,9 @@ const Modal = () => {
                             placeholder="@shibby_productions_photography"
                           />
                         </div>
-                        <div
-                          className="md-form datepicker date"
-                          id="datepicker-input"
-                        >
+                        <div className="md-form">
                           <label htmlFor="form-date">Date your looking for *</label>
-                          <input
-                            type="text"
-                            id="form-date"
-                            name="date"
-                            placeholder="MM/DD/YY"
-                          />
+                          <DatePickerReact/>
                         </div>
                         <div className="md-form">
                           <label htmlFor="form-location">Location *</label>

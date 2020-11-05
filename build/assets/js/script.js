@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  /* === || Scroll || === */
+  /* === || Scroll Spy || === */
   $(".navbar a, footer a[href='#myPage']").on("click", function (event) {
     if (this.hash !== "") {
       event.preventDefault();

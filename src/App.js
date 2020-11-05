@@ -5,7 +5,7 @@ import { LandingPage, Developer, Photography } from "./pages";
 class App extends React.Component {
   render() {
     return (
-      <Router>
+      <Router basename={process.env.PUBLIC_URL + "/"}>
         <Switch>
           <Route exact path="/" component={LandingPage} />
           <Route exact path="/developer" component={Developer} />

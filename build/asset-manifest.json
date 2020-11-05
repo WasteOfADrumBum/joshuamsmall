@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/joshuamsmall/static/css/main.8bf8d384.chunk.css",
+    "main.js": "/joshuamsmall/static/js/main.6d1d2480.chunk.js",
+    "main.js.map": "/joshuamsmall/static/js/main.6d1d2480.chunk.js.map",
+    "runtime-main.js": "/joshuamsmall/static/js/runtime-main.6f6db4ed.js",
+    "runtime-main.js.map": "/joshuamsmall/static/js/runtime-main.6f6db4ed.js.map",
+    "static/css/2.046848f9.chunk.css": "/joshuamsmall/static/css/2.046848f9.chunk.css",
+    "static/js/2.094205c6.chunk.js": "/joshuamsmall/static/js/2.094205c6.chunk.js",
+    "static/js/2.094205c6.chunk.js.map": "/joshuamsmall/static/js/2.094205c6.chunk.js.map",
+    "static/js/3.faa2e57d.chunk.js": "/joshuamsmall/static/js/3.faa2e57d.chunk.js",
+    "static/js/3.faa2e57d.chunk.js.map": "/joshuamsmall/static/js/3.faa2e57d.chunk.js.map",
+    "index.html": "/joshuamsmall/index.html",
+    "static/css/2.046848f9.chunk.css.map": "/joshuamsmall/static/css/2.046848f9.chunk.css.map",
+    "static/css/main.8bf8d384.chunk.css.map": "/joshuamsmall/static/css/main.8bf8d384.chunk.css.map",
+    "static/js/2.094205c6.chunk.js.LICENSE.txt": "/joshuamsmall/static/js/2.094205c6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6f6db4ed.js",
+    "static/css/2.046848f9.chunk.css",
+    "static/js/2.094205c6.chunk.js",
+    "static/css/main.8bf8d384.chunk.css",
+    "static/js/main.6d1d2480.chunk.js"
+  ]
+}

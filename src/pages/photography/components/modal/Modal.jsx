@@ -19,10 +19,10 @@ const Modal = () => {
                 id="contact-disclaimer-top"
                 className="text-center w-responsive mx-auto"
               >
-                I will{" "}
+                I will
                 <i>
                   <strong>always</strong>
-                </i>{" "}
+                </i>
                 respond within 24-48 hours from when you contact me!
               </p>
               <p

@@ -31,6 +31,8 @@ My personal web development and photography portfolio
 
 [JoshuaMSmall.com](https://www.joshuamsmall.com)
 
+[GitHub.io](https://wasteofadrumbum.github.io/joshuamsmall/)
+
 ### `yarn start`
 
 Runs the app in the development mode.\

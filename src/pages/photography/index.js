@@ -1,5 +1,5 @@
 import React from "react";
-import "../../assets/styles/photography.scss"
+import "../../assets/styles/photography.scss";
 
 import NavBar from "./components/navbar/NavBar.jsx";
 import Jumbotron from "./components/jumbotron/Jumbotron";
@@ -17,21 +17,25 @@ import Footer from "./components/footer/Footer";
 
 const PhotographyPage = () => {
   return (
-    <div className="photography-page" id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+    <div
+      className="photography-page"
+      id="myPage"
+      data-spy="scroll"
+      data-target=".navbar"
+      data-offset="60"
+    >
       <NavBar />
-      <div data-spy="scroll" data-target="#myNavbar" data-offset="0">
-        <Jumbotron />
-        <About />
-        <Award />
-        <Equipment />
-        <Portfolio />
-        <Portrait />
-        <Landscape />
-        <Event />
-        <Wedding />
-        <Photoshop />
-        <Contact />
-      </div>
+      <Jumbotron />
+      <About />
+      <Award />
+      <Equipment />
+      <Portfolio />
+      <Portrait />
+      <Landscape />
+      <Event />
+      <Wedding />
+      <Photoshop />
+      <Contact />
       <Footer />
     </div>
   );

@@ -5,37 +5,33 @@
   "orientation": "landscape-primary",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
+      "src": "assets/images/favicon_io/favicon-32x32.png",
+      "sizes": "32x32",
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "aassets/images/favicon_io/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/x-icon"
+    },
+
+    {
+      "src" : "assets/images/favicon_io/android-chrome-192x192",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src" : "assets/images/favicon_io/android-chrome-512x512",
       "type": "image/png",
       "sizes": "512x512"
     },
     {
-      "src" : "android-chrome-192x192",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src" : "android-chrome-512x512",
-      "type": "image/png",
-      "sizes": "512x512"
-    },
-    {
-      "src" : "apple-touch-icon",
+      "src" : "assets/images/favicon_io/apple-touch-icon",
       "type": "image/png",
       "sizes": "180x180"
     }
   ],
-  "start_url": "https://www.JoshuaMSmall.com/",
+  "start_url": "https://wasteofadrumbum.github.io/joshuamsmall",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"

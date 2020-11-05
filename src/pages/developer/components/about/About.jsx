@@ -32,8 +32,8 @@ const About = () => {
             <span className="glyphicon logo">
               <img
                 id="pro-pic"
-                src="../../assets/images/Toon Pro Pic.png"
-                alt="My, Myself &amp; I"
+                src="assets/images/pro-toon.png"
+                alt="Me, Myself &amp; I"
               />
             </span>
           </div>

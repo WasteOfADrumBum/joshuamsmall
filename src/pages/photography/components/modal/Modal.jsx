@@ -103,7 +103,10 @@ const Modal = () => {
                           />
                         </div>
                         <div className="md-form">
-                          <label htmlFor="form-date">Date your looking for *</label>
+                          <label htmlFor="react-datepicker-wrapper">Date your looking for *</label>
+                          {/* 
+                            // ! <form> cannot appear as a descendant of <form>
+                          */}
                           <DatePickerReact/>
                         </div>
                         <div className="md-form">

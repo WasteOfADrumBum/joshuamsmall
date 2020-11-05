@@ -3,6 +3,11 @@ import PhotoCarousel from "../../../../components/Carousel";
 import horizontalData from '../../../../data/horizontalData.json';
 import verticalData from '../../../../data/verticalData.json';
 
+// ! Console Warning: 
+// ! findDOMNode is deprecated in StrictMode. 
+// ! findDOMNode was passed an instance of Transition which is inside StrictMode. 
+// ! Instead, add a ref directly to the element you want to reference. 
+
 const Portrait = () => {
  return (
     <div id="portrait-container">
@@ -27,7 +32,6 @@ const Portrait = () => {
           <div className="col-md-1" />
         </div>
       </div>
-
       <div className="row">
         <div className="col-md-3" />
         <div className="col-md-2 text-center">

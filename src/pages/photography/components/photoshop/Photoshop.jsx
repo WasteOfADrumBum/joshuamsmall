@@ -1,4 +1,5 @@
 import React from "react";
+import ReactCompareImage from "react-compare-image";
 
 const Photoshop = () => {
   return (
@@ -22,25 +23,17 @@ const Photoshop = () => {
       </div>
       <div className="row">
         <div className="col-md-1" />
-        <div className="ba-slider col-md-5">
-          <img
-            src="assets/images/photoshop/courtney-after.jpg"
-            alt="courtney-after"
+        <div className="col-md-5">
+          <ReactCompareImage
+            leftImage="assets/images/photoshop/courtney-after.jpg"
+            rightImage="assets/images/photoshop/courtney-b4.jpg"
           />
-          <div className="resize">
-            <img
-              src="assets/images/photoshop/courtney-b4.jpg"
-              alt="courtney-b4"
-            />
-          </div>
-          <span className="handle" />
         </div>
-        <div className="ba-slider col-md-5">
-          <img src="assets/images/photoshop/jay-after.jpg" alt="jay-after" />
-          <div className="resize">
-            <img src="assets/images/photoshop/jay-b4.jpg" alt="jay-b4" />
-          </div>
-          <span className="handle" />
+        <div className="col-md-5">
+          <ReactCompareImage
+            leftImage="assets/images/photoshop/jay-after.jpg"
+            rightImage="assets/images/photoshop/jay-b4.jpg"
+          />
         </div>
         <div className="col-md-1" />
       </div>

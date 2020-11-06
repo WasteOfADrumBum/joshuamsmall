@@ -33,6 +33,8 @@ My personal web development and photography portfolio
 
 [GitHub.io](https://wasteofadrumbum.github.io/joshuamsmall/)
 
+[Heroku](https://joshuamsmall.herokuapp.com/)
+
 ### `yarn start`
 
 Runs the app in the development mode.\
